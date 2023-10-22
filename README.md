@@ -42,12 +42,12 @@ git clone https://github.com/VTRyo/isucon-terraform.git
     ```
 
 ```sh
-terraform plan -var="isucon_version=twelve_q" -var="github_user=VTRyo -var="public_key=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICs1yBBn/9XS4gY2O5uOepMvkeTmeeL2L6Bxe6l6B/FW" 
+terraform plan -var="isucon_version=twelve-q" -var="github_user=VTRyo -var="public_key=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICs1yBBn/9XS4gY2O5uOepMvkeTmeeL2L6Bxe6l6B/FW" 
 ```
 
 - terraform apply
 ```sh
-terraform apply -var="isucon_version=twelve_q" -var="github_user=VTRyo" -var="public_key=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICs1yBBn/9XS4gY2O5uOepMvkeTmeeL2L6Bxe6l6B/FW"
+terraform apply -var="isucon_version=twelve-q" -var="github_user=VTRyo" -var="public_key=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICs1yBBn/9XS4gY2O5uOepMvkeTmeeL2L6Bxe6l6B/FW"
 ```
 
 ## Login
@@ -65,7 +65,7 @@ https://github.com/matsuu/aws-isucon
 課金されるので忘れずに削除してください
 
 ```sh
-terraform destroy -var="isucon_version=twelve_q" -var="github_user=VTRyo" -var="public_key=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICs1yBBn/    9XS4gY2O5uOepMvkeTmeeL2L6Bxe6l6B/FW"
+terraform destroy -var="isucon_version=twelve-q" -var="github_user=VTRyo" -var="public_key=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICs1yBBn/    9XS4gY2O5uOepMvkeTmeeL2L6Bxe6l6B/FW"
 ```
 
 # 免責事項
